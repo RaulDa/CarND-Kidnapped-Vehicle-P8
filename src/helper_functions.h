@@ -58,6 +58,16 @@ inline double dist(double x1, double y1, double x2, double y2) {
 	return sqrt((x2 - x1) * (x2 - x1) + (y2 - y1) * (y2 - y1));
 }
 
+/*
+ * Calculates the error of the posterior state against the ground truth position.
+ * @param gt_x ground truth x coordinate
+ * @param gt_y ground truth y coordinate
+ * @param gt_theta ground truth theta coordinate
+ * @param pt_x estimated x coordinate
+ * @param pt_y estimated y coordinate
+ * @param pt_theta estimated theta coordinate
+ * @output Calculated error
+ */
 inline double * getError(double gt_x, double gt_y, double gt_theta, double pf_x, double pf_y, double pf_theta) {
 	static double error[3];
 	error[0] = fabs(pf_x - gt_x);
