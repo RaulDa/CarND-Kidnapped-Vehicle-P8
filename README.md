@@ -62,6 +62,4 @@ Finally, the resampling is performed by the function `resample` of the `Particle
 
 ### 5. Accuracy and results
 
-The particle filter achieve an approximate error of .115 for `x`, 0.095 for `y` and 0.03 for `theta` during the simulation, as shown in the video:
-
-[![Alt text for your video](https://i.ytimg.com/vi/J-JSZ5nrHpA/hqdefault.jpg?sqp=-oaymwEZCNACELwBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLBaMwzkJAREYwPgXauMBz1Tg2zMMA)](https://www.youtube.com/watch?v=J-JSZ5nrHpA)
+The particle filter achieve an approximate error of .115 for `x`, 0.095 for `y` and 0.03 for `theta` during the simulation, as shown in the [video](https://www.youtube.com/watch?v=J-JSZ5nrHpA).
